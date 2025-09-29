@@ -282,127 +282,80 @@
 
 
 <!-- Video carousel -->
-
-<!-- End video carousel -->
-
-<!-- Video Grid (9-grid) -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">More Results</h2>
-      <!-- 九宫格容器：使用 Bulma 的 columns 结合自定义网格样式 -->
-      <div id="results-grid" class="columns is-multiline is-gap-4">
-        <!-- 视频 1 -->
-        <div class="column is-4"> <!-- 3列布局：12/3=4 -->
-          <div class="item item-video1">
-            <video poster="" id="video1" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/1.mp4" type="video/mp4">
-            </video>
-          </div>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/1.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 2 -->
-        <div class="column is-4">
-          <div class="item item-video2">
-            <video poster="" id="video2" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/2.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video2">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/2.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 3 -->
-        <div class="column is-4">
-          <div class="item item-video3">
-            <video poster="" id="video3" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/3.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/3.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 4（新增） -->
-        <div class="column is-4">
-          <div class="item item-video4">
-            <video poster="" id="video4" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/4.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/4.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 5（新增） -->
-        <div class="column is-4">
-          <div class="item item-video5">
-            <video poster="" id="video5" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/5.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/5.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 6（新增） -->
-        <div class="column is-4">
-          <div class="item item-video6">
-            <video poster="" id="video6" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/6.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/6.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 7（新增） -->
-        <div class="column is-4">
-          <div class="item item-video7">
-            <video poster="" id="video7" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/7.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/7.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 8（新增） -->
-        <div class="column is-4">
-          <div class="item item-video8">
-            <video poster="" id="video8" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/8.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/8.mp4" type="video/mp4">
+          </video>
         </div>
-        
-        <!-- 视频 9（新增） -->
-        <div class="column is-4">
-          <div class="item item-video9">
-            <video poster="" id="video9" controls muted loop preload="metadata" class="video-grid-item">
-              <source src="static/videos/9.mp4" type="video/mp4">
-            </video>
-          </div>
+        <div class="item item-video3">
+          <!-- TODO: Add poster image for better preview -->
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <!-- Your video file here -->
+            <source src="static/videos/9.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video grid -->
+<!-- End video carousel -->
 
-<style>
-  /* 九宫格视频样式优化 */
-  .video-grid-item {
-    width: 100%; /* 视频宽度占满父容器 */
-    height: 200px; /* 固定高度（可根据需求调整） */
-    object-fit: cover; /* 保持比例填充容器，避免拉伸 */
-    border-radius: 4px; /* 轻微圆角美化 */
-  }
-
-  /* 响应式调整：小屏幕自动改为2列，超小屏幕1列 */
-  @media (max-width: 768px) {
-    .column.is-4 {
-      width: 50% !important; /* 平板：2列 */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .column.is-4 {
-      width: 100% !important; /* 手机：1列 */
-    }
-    .video-grid-item {
-      height: 160px; /* 手机端适当减小高度 */
-    }
-  }
-</style>
 
 
 
