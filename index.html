@@ -21,7 +21,7 @@
   <!-- TODO: Replace with your institution or lab name -->
   <meta property="og:site_name" content="Beijing University of Posts and Telecommunications">
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="DiTraj: training-free trajectory control for video diffusion transformer">
+  <meta property="og:title" content="DiTraj: Training-free Trajectory Control for Video Diffusion Transformer">
   <!-- TODO: Same as description above -->
   <meta property="og:description" content="111">
   <!-- TODO: Replace with your actual website URL -->
@@ -56,8 +56,8 @@
   <title>DiTraj</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico"> -->
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -149,7 +149,6 @@
     "@type": "Organization",
     "name": "INSTITUTION_OR_LAB_NAME",
     "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
     "sameAs": [
       "https://twitter.com/YOUR_TWITTER_HANDLE",
       "https://github.com/YOUR_GITHUB_USERNAME"
@@ -173,35 +172,44 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">DiTraj: training-free trajectory control for video diffusion transformer</h1>
+            <h1 class="title is-1 publication-title">DiTraj: Training-free Trajectory Control for Video Diffusion Transformer</h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="https://github.com/leichengjiayou" target="_blank">Cheng Lei</a><sup>*</sup>,</span>
+                <a href="https://github.com/leichengjiayou" target="_blank">Cheng Lei</a><sup>12†</sup>,</span>
                 <span class="author-block">
-                  <a href="https://github.com/xduzhangjiayu" target="_blank">Jiayu Zhang</a><sup>*</sup>,</span>
+                  <a href="https://github.com/xduzhangjiayu" target="_blank">Jiayu Zhang</a><sup>2†‡</sup>,</span>
                   <span class="author-block">
-                  <a href="https://github.com/mayuelala" target="_blank">Yue Ma</a>,</span>
+                  <a href="https://github.com/mayuelala" target="_blank">Yue Ma</a><sup>3*</sup>,</span>
                   <span class="author-block">
-                  <a href=None target="_blank">Xinyu Wang</a>,</span>
+                  <a href=None target="_blank">Xinyu Wang</a><sup>4</sup>,</span>
                   <span class="author-block">
-                  <a href=None target="_blank">Long Chen</a>,</span>
+                  <a href=None target="_blank">Long Chen</a><sup>2</sup>,</span>
                   <span class="author-block">
-                  <a href=None target="_blank">Liang Tang</a>,</span>
+                  <a href=None target="_blank">Liang Tang</a><sup>2</sup>,</span>
                   <span class="author-block">
-                  <a href=None target="_blank">Yiqiang Yan</a>,</span>
+                  <a href=None target="_blank">Yiqiang Yan</a><sup>2</sup>,</span>
                   <span class="author-block">
-                  <a href=None target="_blank">Fei Su</a>,</span>
+                  <a href=None target="_blank">Fei Su</a>,<sup>1</sup></span>
                   <span class="author-block">
-                    <a href="None" target="_blank">Zhicheng Zhao</a>
+                    <a href="None" target="_blank">Zhicheng Zhao</a><sup>1*</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
+                  <sup>1</sup>Beijing University of Posts and Telecommunications
+                  &nbsp;&nbsp; <sup>2</sup>Lenovo
+                  &nbsp;&nbsp; <br />
+                  <sup>3</sup>HKUST
+                  &nbsp;&nbsp; <sup>4</sup>Tsinghua University
+                  <br />
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Beijing University of Posts and Telecommunications, Lenovo, HKUST, Tsinghua University<br>Under Review</span>
                     <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  
+                  <div class="is-size-3 publication-authors"></div>
+                  <sup>†</sup>Equal Contribution</span>&nbsp;
+                  <sup>‡</sup>Project Lead</span>&nbsp;
+                  <sup>*</sup>Corresponding Author</span>&nbsp;
                   </div>
 
                   <div class="column has-text-centered">
@@ -288,7 +296,7 @@
           <img src="./assets/overview_inference.png" class="" alt="" />
         </div> -->
         <div>
-          <img src="static/images/method.pdf" class="" alt="" />
+          <img src="static/images/method.png" class="" alt="" />
         </div>
         <div>
 (a) Overview of DiTraj. Given the user-provided prompt and target trajectory, DiTraj achieves training-free trajectory controllable T2V generation. (b) Foreground-background separation conditional guidance. (c) The STD-RoPE processing procedure.
